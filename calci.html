@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>calculator</title>
+</head>
+<link rel="stylesheet" type="text/css" href="calci.css">
+<body>
+	<div class="container">
+		<div class="photo"></div>
+		<div class="heading"><h1>JAVA-CULATOR <br> <h2>(calculator using Java Script)</h2></h1></div>
+		<div class="calci">
+			<div class="no1"><input type="number" name="no1" id="enter1"  step="any" placeholder="enter the first no"></div>
+			<div class="no2"><input type="number" name="no2" id="enter2" step="any" placeholder="enter the second number"></div>
+			<div class="operator">
+				<select id="ope"> 
+					<option value="+">+</option>
+					<option value="-">-</option>
+					<option value="*">*</option>
+					<option value="/">/</option>
+			    </select>
+		    </div>
+		    <button onclick="cal()" id="button" >click me</button>
+			<div id="result"><input type="text" name="result"  id="value" readonly="" placeholder="result"></div>
+		</div>
+	</div>
+	
+</body>
+<script type="text/javascript" src="calci.js" >
+</script>
+</html>

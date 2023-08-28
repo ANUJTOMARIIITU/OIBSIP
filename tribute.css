@@ -1,0 +1,55 @@
+body{
+	background-color: black;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.heading{
+	height: 20px;
+	width: 100%;
+	background-color: white;
+	color: black;
+	font-family:times new roman;
+	background-attachment: fixed;
+	padding: 0 5px;
+	background-attachment: fixed;
+
+}
+
+.container{
+	height: 610px;
+	width: 100%;
+}
+
+.thought{
+	height: 300px;
+	width: 100%;
+	background-image: url(tribute.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 300px;
+	background-position: center;
+	border border-radius: 100px;
+	
+}
+
+.content{
+	height: 400px;
+	width: 98%;
+	margin: 10px 10px 10px 10px;
+	border-radius: 10px;
+	border: solid white;
+	font-family: 'Dancing script',cursive;
+	color: white;
+}
+
+.actual{
+	height: 360px;
+	width: 97%;
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
+	text-align: justify;
+}
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	  <link rel="stylesheet" type="text/css" href="login.css">
+	  <title>login page</title>
+</head>
+<body>
+   <div class="center">click on the button below to login </div>
+   <button class="login" onclick="fun()">LOGIN</button>
+       <div id="box">
+	     <form>
+		      <div class="cross">
+          <span onclick="cancel()">&times;</span>
+          </div>
+          <div class="img"></div>
+          <div class="container">
+          <label ><b>Username</b></label><br>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+          </div>
+          <div id="psw">
+          <label ><b>Password</b></label><br>
+          <input type="password" placeholder="Enter Password" name="psw" required><br>
+          <label id="rem">
+          <input type="checkbox"> Remember me
+          </label>
+          </div> 
+          <div class="container1">
+          <button  class="button" type="submit">submit</button>
+          </div>  
+          <div class="container2" >
+          <button class="cancel" onclick="cancel()">Cancel</button>
+          </div>
+          <div class="container3">
+          <span> <a href="psw.html"> Forgot password?</a></span>
+          </div>
+      </form>
+      </div>
+</body>
+<script type="text/javascript" src="login.js"></script>
+</html>

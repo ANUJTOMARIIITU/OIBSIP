@@ -1,0 +1,109 @@
+body{
+	background-image: url(b.jpeg);
+	background-repeat: no-repeat;
+	background-size: 100% 1080px;
+	background-attachment: fixed;
+	background-position: center;
+	}
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.heading{
+	height: 100px;
+	width: 100%;
+	font-family: times new roman;
+	font-size: 40px;
+	text-align: center;
+
+}
+
+
+.app{
+	height: 500px;
+	width: 400px;
+    margin-left: 450px;
+	margin-top: 20px;
+	background-image: url(paper2.png);
+	background-repeat: no-repeat;
+	background-size: 400px 500px;
+	
+
+}
+
+.title{
+	height: 40px;
+	width: 280px;
+	float: left;
+	margin-bottom:  10px;
+	padding: 10px 10px;
+	font-family: cursive;
+	
+	font-size: 30px;
+	color: red;
+
+
+}
+
+.pic{
+    height: 40px;
+	width: 80px;
+	float: left;
+	margin-bottom:  10px;
+	background-image: url(todo.png);
+	background-size: 60px 60px;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 10px 10px;
+	border-radius: 100%;
+
+}
+
+
+#search{
+	height: 10px;
+	width: 280px;
+	margin-left: 5px;
+	float: left;
+	margin-bottom:  10px;
+	padding: 10px 10px;
+	border-radius: 10px;
+}
+
+#add{
+    height: 35px;
+	width: 80px;
+	background-color:blue;
+	float: left;
+	margin-bottom:  10px;
+	padding: 10px 10px;
+	border-radius: 10px;
+	color: white;
+	margin-left: 5px;
+}
+
+.content{
+	height: 150px;
+	width: 400px;
+}
+
+.main {
+	height: 330px;
+	width: 380px;
+	margin: 10px 10px;
+}
+
+ul li{
+	list-style: none;
+
+}
+
+.actual{
+	padding: 20px 30px;
+	color: red;
+
+}
+
+
